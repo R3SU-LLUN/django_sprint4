@@ -139,3 +139,6 @@ EMAIL_FILE_PATH = BASE_DIR / "sent_emails"
 # Login URL
 LOGIN_URL = "/auth/login/"
 LOGIN_REDIRECT_URL = '/'
+
+STATIC_URL = "/static/"
+STATICFILES_DIRS = [BASE_DIR / "static"]
